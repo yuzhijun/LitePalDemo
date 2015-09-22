@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<litepal>  
+	<!-- 数据库名称 -->
+    <dbname value="litepal" ></dbname>  
+    <!-- 版本号 (如果数据库表有修改的话只需要这边的值+1)-->
+    <version value="5" ></version>
+    <!-- model集 -->  
+    <list>  
+        <mapping class="com.example.model.News"></mapping>  
+        <mapping class="com.example.model.Comment"></mapping>
+        <mapping class="com.example.model.Introduction"></mapping>
+        <mapping class="com.example.model.Category"></mapping>
+    </list>   
+</litepal> 
